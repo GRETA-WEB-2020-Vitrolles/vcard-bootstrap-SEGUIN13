@@ -1,68 +1,137 @@
 <!doctype html>
 <html lang="fr">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <title> SEGUIN Véronique</title>
-    <meta name="description" content="vcard Développeur Web">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="vcard Développeur Web" name="description">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap" rel="stylesheet">
-    <link href="css/all.min.css" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/print.css" rel="stylesheet" media="print">
-    <link href="css/style.css" rel="stylesheet" media="screen">
-    <link  href="css/vcard.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet">
 
     <title>Hello, world!</title>
 
     <style>
-      div{
-        border: 1px solid red;
-      }
+        /*div{
+          border: 1px solid red;
+        }*/
 
-      header{
-        background-color : black;
-      }
-      .container{
-        width: 780px;
-      }
-      img{
-        margin-top: 10px;
-      }
+        header {
+            background-color: black;
+        }
 
-      a:hover{
-        background: darkred;
-      }
+        .container {
+            width: 780px;
+        }
 
+        img {
+            margin-top: 10px;
+        }
+
+        a:hover {
+            background: darkred;
+        }
+
+        .text-sm {
+            font-size: 0.75em;
+        }
     </style>
 
-  </head>
-  <body>
+</head>
+<body>
 
-    <header class="pt-5  text-white">
-      <div class="container text-center mt-5">   <!--permet le centrage de la div -->
+<header class="pt-5  text-white">
+    <div class="container text-center mt-5">   <!--permet le centrage de la div -->
 
-        <img src="image/logo.png" alt="logo">
+        <img alt="logo" src="image/logo.png">
         <div class="my-3">
-
-
-        <p><strong>Véronique SEGUIN</strong></p>
-        <P><em>Développeur Web et Web responsive</em></p>
-        <p><em>En recherche de stage du 30 juin au 14 Aout</em></p>
+            <p><strong>Véronique SEGUIN</strong></p>
+            <P><em>Développeur Web et Web responsive</em></p>
+            <p><em>En recherche de stage du 30 juin au 14 Aout</em></p>
         </div>
+
         <div class="row">
             <div class="col">APPELER <br>
-              <a class="btn text-white w-100" href="tel:0769955503">
-            <span class="fas fa-phone-alt" aria-hidden="true"></span>
-              </a>
+                <a class="btn text-white w-100" href="tel:0769955503">
+                    <span aria-hidden="true" class="fas fa-phone-alt"></span>
+                </a>
             </div>
 
             <div class="col">E-MAIL<br>
-              <a class="btn text-white w-100" href="mailto:veronique.seguin13@orange.fr">
-              <span class="fas fa-paper-" aria-hidden="true"></span>
-              </a>
+                <a class="btn text-white w-100" href="mailto:veronique.seguin13@orange.fr">
+                    <span aria-hidden="true" class="fas fa-paper"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="bg-light">
+    <a class="container pt-4"></a>
+        <div class="row">
+            <div class="col-4 text-right"><span class="fas fa-info"> </span><br></div>
+            <div class="col-8">Développeur web<br>
+                <p class="text-sm">Recherche de stage du 30 juin au 14 aout</p></div>
+        </div>
+
+        <hr>
+
+
+        <div class="row">
+            <div class="col-4 text-right"><span class="fas fa-phone-alt "></span></div>
+            <div class="col-8">07 69 95 55 03<br>
+                <p class="text-sm">Mobile</p></div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-4 text-right"><span class="fas fa-paper-plane "></span></div>
+            <div class="col-8">veronique.seguin13@orange.fr<br>
+                <p class="text-sm"> E-mail</p></div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-4 text-right"><span class="fa fa-briefcase"></span></div>
+            <div class="col-8"> SVG <br>
+                <p class="text-sm">Création de site et mise en place d'infrastructure réseau</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-4 text-right"><span class="fa fa-map-marker"></span></div>
+            <div class="col-8">Allauch</div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-4 text-right"><span class="fas fa-globe"></span></div>
+            <div class="col-8">https://www.seguin-veronique.fr<br>
+                <p class="text-sm">Site internet</div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col text-center">
+              <span class="mr-3 fas fa-share-alt-square"></span>Réseaux sociaux</p>
+              <a class="btn  w-20" href="https://www.facebook.com/veronique.seguin.14"></a>
+              <span class="fab fa-facebook"></span>
+              <a class="btn  w-20" href="https://www.linkedin.com/in/veronique-seguin-1319"></a>
+              <span class="fab fa-linkedin"></span>
+              <a class="btn  w-20" href="https://www.viadeo.com/fr/profile/veronique.seguin.13190"></a>
+              <span class="fab fa-viadeo"></span>
+              <a class="btn  w-20" href="https://www.twitter.com@SguinVeronique1"></a>
+              <span class="fab fa-twitter"></span>
+              <a class="btn  w-20" href="https://www.seguin-veronique.fr"></a>
+              <span class="fas fa-globe"></span>
             </div>
         </div>
 
@@ -75,7 +144,7 @@
 
           <div class="col">E-MAIL<br>
             <a class="btn text-white w-100" href="mailto:veronique.seguin13@orange.fr">
-              <span class="fas fa-paper-" aria-hidden="true"></span>
+              <span class="fas fa-paper" aria-hidden="true"></span>
             </a>
           </div>
         </div>
